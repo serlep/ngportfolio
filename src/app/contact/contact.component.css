@@ -1,0 +1,145 @@
+h1{
+  font-family: 'Borrio', cursive;
+  margin-left: -5%;
+  opacity: 0;
+  animation: 2s show forwards;
+}
+@keyframes show {
+  from { margin-left: -5%; opacity: 0}
+  to { margin-left: 0; opacity: 1}
+}
+.container{
+  position: relative;
+  width: 55%;
+  margin-left: 20%;
+}
+p{
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-family: 'pangolin', cursive;
+  margin: 2% 0;
+}
+.blackout{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  animation: 2s out forwards;
+  animation-delay: 1s;
+}
+@keyframes out {
+  from { width: 100% }
+  to { width: 0 }
+}
+agm-map {
+  height:300px;
+}
+.contact{
+  margin-top: 1%;
+  height: 400px;
+}
+.container2{
+  position: relative;
+  width: 30%;
+  margin-left: 5%;
+}
+.leftcontact{
+  width: 30%;
+  padding: 2%;
+  font-family: 'pangolin', cursive;
+  margin: 10% 0 5% 10%;
+}
+.blackout2{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  overflow: hidden;
+  width: 50%;
+  height: 100%;
+  animation: 2s out forwards;
+  animation-delay: 2s;
+}
+@keyframes out {
+  from { width: 50% }
+  to { width: 0 }
+}
+.rightcontact{
+  display: block;
+  float: right;
+  width: 55%;
+  padding: 2%;
+  font-family: 'pangolin', cursive;
+  margin-top: 10%;
+  margin-right: -25%;
+}
+.rightcontact img{
+  width: 29px;
+}
+.facebook{
+  display: block;
+  float: left;
+  width: 55px;
+  padding: 3% 3%;
+  border: 3px solid #3E92CC;
+  filter: grayscale(100%);
+  position: relative;
+}
+.facebook:hover{
+  filter: grayscale(0);
+  transition: .5s ease;
+  cursor: pointer;
+}
+.insta{
+  display: block;
+  float: left;
+  width: 55px;
+  padding: 3% 3%;
+  border: 3px solid #F77B90;
+  filter: grayscale(100%);
+  margin-left: 10%;
+}
+.insta:hover{
+  filter: grayscale(0);
+  transition: .5s ease;
+  cursor: pointer;
+}
+.github{
+  display: block;
+  float: left;
+  width: 55px;
+  padding: 3% 3%;
+  border: 3px solid #F39C6B;
+  filter: grayscale(100%);
+  margin-left: 10%;
+}
+.github:hover{
+  filter: grayscale(0);
+  transition: .5s ease;
+  cursor: pointer;
+}
+.link{
+  display: block;
+  float: left;
+  width: 55px;
+  padding: 3% 3%;
+  border: 3px solid #38AECC;
+  filter: grayscale(100%);
+  margin-left: 10%;
+}
+.link:hover{
+  filter: grayscale(0);
+  transition: .5s ease;
+  cursor: pointer;
+}
+.footer{
+  width: 100%;
+  height: 20px;
+  text-align: center;
+}

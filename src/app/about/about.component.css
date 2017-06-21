@@ -1,0 +1,159 @@
+h1{
+  font-family: 'Borrio', cursive;
+  margin: -2% 0 5% 5%;
+  opacity: 0;
+  animation: 2s show forwards;
+}
+@keyframes show {
+  from { margin-left: 0; opacity: 0;}
+  to { margin-left: 5%; opacity: 1;}
+}
+h2{
+  font-family: 'Borrio', cursive;
+  margin-bottom: 2%;
+}
+h3{
+  font-family: 'Pangolin', cursive;
+  margin: 0 auto;
+}
+#cptheading{
+  margin-left: -50%;
+}
+#cptpara{
+  margin-left: -50%;
+  text-align: center;
+  opacity: 0;
+}
+/*.biopro .row{
+  margin-bottom: 30%;
+}
+.biopro .row:nth-child(3){
+  margin-bottom: 5%;
+}
+.biopro .row:last-child{
+  margin-bottom: 0%;
+}*/
+.biopro{
+  width: 80%;
+  margin: 0 auto;
+}
+.biopro #para{
+  width: 100%;
+  height: 200px;
+  font-size: 25px;
+  font-family: 'Pangolin', cursive;
+  padding-top: 5%;
+  line-height: 1.3em;
+  text-align: center;
+  position: relative;
+  z-index: 1000;
+}
+.para{
+  text-align: center;
+}
+.biopro #mypic{
+  position: absolute;
+  right: -70%;
+  width: 400px;
+  height: auto;
+  animation: slide 1.5s forwards;
+  z-index: 1;
+  box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.4);
+}
+.biopro #mypic:hover{
+  cursor: all-scroll;
+  transition: .2s;
+  border: 5px solid black;
+  z-index: 5000;
+}
+@keyframes slide {
+  100% { right: 10%; }
+}
+.svg{
+  text-align: center;
+  height: 200px;
+  margin-top: 15%;
+}
+.arrows{
+  width: 60px;
+  height: 72px;
+}
+.arrows path {
+	stroke: #000;
+	fill: transparent;
+	stroke-width: 1px;
+	animation: arrow 2s infinite;
+	-webkit-animation: arrow 2s infinite;
+}
+
+@keyframes arrow
+{
+  0% {opacity:0}
+  40% {opacity:1}
+  80% {opacity:0}
+  100% {opacity:0}
+}
+
+@-webkit-keyframes arrow /*Safari and Chrome*/
+{
+  0% {opacity:0}
+  40% {opacity:1}
+  80% {opacity:0}
+  100% {opacity:0}
+}
+.arrows path.a1 {
+	animation-delay:-1s;
+	-webkit-animation-delay:-1s; /* Safari 和 Chrome */
+}
+
+.arrows path.a2 {
+	animation-delay:-0.5s;
+	-webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+}
+
+.arrows path.a3 {
+	animation-delay:0s;
+	-webkit-animation-delay:0s; /* Safari 和 Chrome */
+}
+.competance{
+  padding: 3% 0;
+  font-size: 1.5em;
+  text-align: center;
+}
+.competance img{
+  width: 90px;
+  margin: 1%;
+  margin-top: -5%;
+  opacity: 0;
+  filter: grayscale(100%);
+}
+.competance img:hover{
+  filter: grayscale(0%);
+}
+.row .footer{
+  width: 100%;
+  height: 30px;
+  text-align: center;
+}
+.cv{
+  text-align: center;
+  padding: 5% 0;
+  margin-top: 3%;
+  margin-left: -50%;
+  opacity: 0;
+}
+.cv h3{
+  margin-bottom: 2%;
+}
+.button{
+  padding: 1% 2%;
+  background-color: #2CABF9;
+  color: #fff;
+  border-radius: 2px;
+  box-sizing: border-box;
+  font-size: 1.2em;
+}
+a:hover{
+  text-decoration: none;
+  background-color: #2692D6;
+}

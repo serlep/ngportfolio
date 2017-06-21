@@ -1,0 +1,118 @@
+.wrapper{
+  margin-top: 10%;
+}
+#heading{
+  position: relative;
+  height: auto;
+  display: inline-block;
+  text-align: center;
+  margin-left: 32.5%;
+}
+#heading #backheading{
+  color: lightgrey;
+  display: inline-block;
+  position: relative;
+}
+#heading #blackheading{
+  color: #000;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: inline-block;
+  white-space: nowrap;
+    -webkit-animation: move 2s linear;
+    -moz-animation: move 2s linear;
+    -o-animation: move 2s linear;
+    overflow: hidden;
+}
+h1{
+  font-family: 'Barrio', cursive;
+}
+h2{
+  font-family: 'pangolin', cursive;
+  padding-left: 20px;
+}
+.hometitle{
+  margin-top: 2%;
+  position: relative;
+  height: auto;
+  display: inline-block;
+  text-align: center;
+  margin-left: 30%;
+}
+.hometitle #backtext{
+  color: lightgrey;
+  display: inline-block;
+  position: relative;
+}
+.hometitle #blacktext{
+  color: #000;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: inline-block;
+  white-space: nowrap;
+    -webkit-animation: move 2s linear;
+    -moz-animation: move 2s linear;
+    -o-animation: move 2s linear;
+    overflow: hidden;
+}
+
+.hometitle span{
+  display: inline-block;
+  animation: wiggle 3s infinite;
+}
+@keyframes wiggle {
+    0% { transform: rotate(0deg); }
+   80% { transform: rotate(0deg); }
+   85% { transform: rotate(10deg); }
+   95% { transform: rotate(-15deg); }
+  100% { transform: rotate(0deg); }
+}
+#blacktext span{
+  color: #75DDDD;
+}
+@-webkit-keyframes move {
+    from { width: 0%; }
+    to { width: 100%; }
+}
+.bg-div{
+  width: 800px;
+  height: 600px;
+  display: block;
+  padding-left: 2%;
+  margin-left: 35%;
+}
+.bg-div img{
+  width: 100%;
+  height: 500px;
+}
+#zigzag{
+  width:50%;
+  height:10px;
+  margin-bottom: -5%;
+}
+#circle{
+  width:50%;
+  height:30px;
+  display: block;
+  float: right;
+  margin-bottom: 3%;
+}
+#rightpath{
+  animation: dash 2s linear forwards;
+}
+#leftpath{
+  animation: dash 2s linear forwards;
+}
+#big{
+  animation: dash 2s linear forwards;
+}
+/* svg animation */
+@keyframes dash {
+  to{
+    stroke-dashoffset: 0;
+  }
+}

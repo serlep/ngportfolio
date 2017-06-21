@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+@import url('https://fonts.googleapis.com/css?family=Borrio|Barrio|Indie+Flower|Roboto|VT323|Pangolin');
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+
+}

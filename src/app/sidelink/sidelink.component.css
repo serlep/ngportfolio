@@ -1,0 +1,38 @@
+.sidebar{
+  width: 100px;
+  height: 50vh;
+  position: fixed;
+  top: 0;
+  height: 100vh;
+}
+.social-link{
+  position: absolute;
+  width: 100vw;
+  transform: rotate(-90deg);
+  margin-left: -800%;
+}
+.social-link p{
+  display: inline-block;
+  font-family: 'Barrio';
+}
+.social-link img{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+.social-link a{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  transition: background-color 0.1s ease-in-out;
+}
+.social-link a:hover{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #75DDDD;
+  transition: background-color 0.1s ease-in-out;
+
+}
